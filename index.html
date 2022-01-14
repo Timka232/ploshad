@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Расчет площади прямоугольника</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    
+    <form name=calcarea>
+        Найти площадь: 
+        <select name="shape" size="1" onChange="this.form.area.value = doArea(this.selectedIndex);">
+        <option> ...
+        <option value="square">Квадрат
+        <option value="rectangle">Прямоугольник
+        </select>
+        = <input type=text name=area size=10>
+        </form>
+    
+    <script src="js.js"></script>
+  </body>
+</html>
